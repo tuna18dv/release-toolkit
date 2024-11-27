@@ -20,6 +20,7 @@ The way in which the toolkit works is the following:
 Each of these steps is performed as a different step in the pipeline, giving maintainers complete flexibility to skip or add intermediate steps. The machine-readable `changelog.yaml` can be easily edited with simple scripts, allowing more flexibility to add, remove, or change changelog entries before the steps that act on them take place.
 
 ## Sneak peek
+123
 
 A pipeline using the release toolkit could look like the following:
 
