@@ -13,7 +13,7 @@ The way in which the toolkit works is the following:
 2. When the release process is initiated, a pipeline using the toolkit will:
    1. Put the contents of the `## Unreleased` section in a machine-readable yaml file, `changelog.yaml`
    2. Add dependency update entries from Renovate or Dependabot commits
-   3. Automatically calculate the next version following semver standards
+   3. Automatically calculate the next version following semver standardsđ
    4. Generate a Markdown document with the release notes for this release
    5. Reincorporate all the contents of `changelog.yaml` into `CHANGELOG.md`, under the correct version header.
 
